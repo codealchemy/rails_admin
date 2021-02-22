@@ -46,10 +46,6 @@ group :test do
   gem "shrine-memory"
   gem "timecop", ">= 0.5"
   gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
-
-  platforms :ruby_19 do
-    gem "tins", "~> 1.6.0", require: false
-  end
 end
 
 gemspec path: "../"
